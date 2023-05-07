@@ -1,1 +1,3 @@
+
 ver 1.0: primer ejercicio de la guia implementado 
+ver 1.1: tercer ejercicio de la guia implentad, quinto se encuentra en fase de prototipo
