@@ -101,17 +101,12 @@ int exer_2(){
    return 0;
 }
 
-/* Se requiere un programa para determinar cuánto ahorrará una persona en
-un año, si al final de cada mes deposita variables cantidades de dinero; además, se
-requiere saber cuánto lleva ahorrado cada mes. Utilice el ciclo apropiado. Considere la
-opción salir, la cual retorna al menú principa*/
 
 int exer_4() {
     int mes = 0;
     int exit_value2;
     int opcr6;
     float monthly_income[12];
-    //float swaper;
     int counter7;
     
     while (mes <= 12 && exit_value2 != 1) {
@@ -132,7 +127,7 @@ int exer_4() {
 
     while (exit_value2 != 2) {
 
-        printf("\nDesea ver el monto almacenado en un mes dado? si(1) no (2) \n");
+        printf("\nDesea ver el monto almacenado en un mes dado? si(1) no o salir(2) \n");
         scanf("%d",&exit_value2);
 
         if (exit_value2==1) {
@@ -148,9 +143,8 @@ int exer_4() {
 
     }
     
-   // for (){}
     
     return 0;
 }
 
-int main() {exer_4();return 0;}
+int main() {return 0;}

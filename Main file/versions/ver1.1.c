@@ -223,7 +223,7 @@ struct student_grades {
      float geography;
 }; 
 
-/*
+
 float get_studentgrades(int z){
     float grade_avarage;
     struct student_grades b;
@@ -263,11 +263,11 @@ float get_studentgrades(int z){
 int exer_5() { 
      float studentgrades[100];
      int out = 0;
-     int i = 1;
+     int i = 0;
      int counter4 =0;
      while (out != 1) {
         printf("ingrese las notas del estudiante: \n");
-        studentgrades[i] = get_studentgrades(i);
+        studentgrades[i] = get_studentgrades(i+1);
         i++;
         counter4++;
         printf("Cuando termine de ingresar las notas de los estudiantes presione 1");
@@ -286,7 +286,7 @@ int exer_5() {
 
     return 0;
 }
- */
+ 
 
 
 
